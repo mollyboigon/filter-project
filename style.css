@@ -35,16 +35,14 @@ img {
     display: block;
     width: 100%;
 }
-.h3.national {
-    color: #5893f5
-}
+
 h3 {
     color: #595959;
 }
+
 h1 {
-    color:#595959
-    };
-}
+    color:#595959;
+    }
 select {
     display: block;
     width: 100%;
@@ -68,17 +66,19 @@ select {
    display:none
 }
 
-
-
 .item.active {
     display:block;
+}
+
+.color-blue h3{
+    color: #5893f5;
 }
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
     #cities > div{
         flex-basis: calc(50% - 10px);
-
+    }
 }
 
 @media(min-width: 729px) {
