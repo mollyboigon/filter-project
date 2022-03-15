@@ -55,18 +55,17 @@ select {
 }
 
 .item {
-   opacity: 0.65;
-   transition: opacity 0.5s ease-in-out;
+   display:none
 }
 
 .item.active {
-    opacity: 1;
+    display:block;
 }
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
     #cities > div{
-        flex-basis: calc(33% - 10px);
+        flex-basis: calc(50% - 10px);
 
 }
 
